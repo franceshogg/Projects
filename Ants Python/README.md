@@ -1,4 +1,4 @@
-# ANTS IN PYTHON
+# ANTS VS BEES
 
 ## Project Description
 
