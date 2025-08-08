@@ -17,7 +17,6 @@ class Place:
         self.bees = []        # A list of Bees
         self.ant = None       # An Ant
         self.entrance = None  # A Place
-        "*** YOUR CODE HERE ***"
         if exit:
             exit.entrance = self
 
@@ -349,7 +348,6 @@ class Water(Place):
     def add_insect(self, insect):
         """Add an Insect to this place. If the insect is not waterproof, reduce
         its health to 0."""
-        # BEGIN Problem 10
         super().add_insect(insect)
         if insect.is_waterproof == False:
             Insect.reduce_health(insect, insect.health)
@@ -376,8 +374,6 @@ class QueenAnt(ScubaThrower):
         Returns a new instance of the Ant class if it is possible to construct, or
         returns None otherwise. Remember to call the construct() method of the superclass!
         """
-        # BEGIN Problem 12
-        "*** YOUR CODE HERE ***"
         if not gamestate.queen:
             gamestate.queen = True
             return super().construct(gamestate)
@@ -634,10 +630,7 @@ class GameState:
         self.dimensions = dimensions
         self.active_bees = []
         self.configure(beehive, create_places)
-        # BEGIN Problem 12
-        "*** YOUR CODE HERE ***"
         self.queen = False
-        # END Problem 12
 
     def configure(self, beehive, create_places):
         """Configure the places in the colony."""
