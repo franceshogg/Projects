@@ -58,3 +58,5 @@ public class Tileset {
     public static final TETile playerRight = new TETile(';', Color.yellow, Color.black, "Look, it's you!", "./byow/ourTiles/linkBlueRight.png");
     public static final TETile FOOD = new TETile(';', Color.yellow, Color.black, "A Tasty Apple!", "./byow/ourTiles/food.png");
 }
+
+

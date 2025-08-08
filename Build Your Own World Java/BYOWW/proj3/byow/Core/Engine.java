@@ -439,7 +439,7 @@ public class Engine {
         Font fontBig = new Font("MONACO", Font.BOLD, FIFTY);
         StdDraw.setFont(fontBig);
         StdDraw.text(x, y, s);
-        StdDraw.show();
+        StdDraw.show(); //HERE HERE HERE
     }
 
     public void preMoves(String dirs) {
@@ -447,7 +447,7 @@ public class Engine {
         boolean smallView = false;
         if (!dirs.equals("")) {
             for (int i = 0; i < dirs.length(); i++) {
-                this.ter.renderFrame(getTiles());
+                //this.ter.renderFrame(getTiles()); HERE HERE HERE
                 char c = dirs.charAt(i);
                 if (c == ':') {
                     colonPressed = true;
@@ -615,12 +615,21 @@ public class Engine {
         int y = (int) StdDraw.mouseY();
 
         if (!(x >= WIDTH) && !(x < 0) && !(y >= HEIGHT) && !(y < 0)) {
-            //if (world[x][y] != prevTile) {
-            ter.renderFrame(world);
+            if (world[x][y] != prevTile) {
+                // Clear the area where the HUD text goes:
+                StdDraw.setPenColor(Color.BLACK);
+                // Draw filled rectangle at the HUD text position:
+                // Width and height should cover the text area
+                double rectX = WIDTH / 2.0;
+                double rectY = EIGHTFIVE * HEIGHT / 10.0;
+                double rectWidth = 7;//WIDTH / 3.0;  // adjust as needed
+                double rectHeight = 1;//HEIGHT / 15.0;  // adjust as needed
+                StdDraw.filledRectangle(rectX, rectY, rectWidth, rectHeight);
+                ter.renderFrame(world);
+            }
             String desc = world[x][y].description();
             StdDraw.setPenColor(Color.WHITE);
             StdDraw.text(WIDTH / 2, EIGHTFIVE * HEIGHT / TEN, desc);
-            //StdDraw.show();
             tile = world[x][y];
             //}
         }
@@ -696,3 +705,4 @@ public class Engine {
         engine.moveAvatar(engine.directions);
     }
 }
+
