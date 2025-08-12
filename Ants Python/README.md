@@ -38,7 +38,7 @@ To-do list:
 
 ## Getting Started
    
-- Ensure Python is installed on your computer.
+- Ensure Python3 is installed on your computer.
 - Clone the repository
   - git clone https://github.com/franceshogg/Ants-Game-Python.git
 - Move to correct directory, then move into "Ants" folder:
