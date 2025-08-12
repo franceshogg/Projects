@@ -53,7 +53,7 @@ To-do list:
 
 ## Contributors
 
-> Frances Hogg
+> Frances Hogg. 
 > Tom Magrino, Eric Tzeng, and John DeNero developed this project's starter code.
 > The artwork was drawn by Alana Tran, Andrew Huang, Emilee Chen, Jessie Salas, Jingyi Li, Katherine Xu, Meena Vempaty, Michelle Chang, and Ryan Davis.
 
