@@ -46,7 +46,9 @@ To-do list:
 
 - Clone the repository: git clone https://github.com/franceshogg/Ants-Game-Python.git
 - Move to correct directory, then move into "Ants" folder: cd Ants
-- Run python3 gui.py, then the game should start up in a new tab.
+- Run game:
+  - UNIX: python3 gui.py
+  - Windows: python gui.py
 
 ## Usage
 
