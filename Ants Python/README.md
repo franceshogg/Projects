@@ -49,7 +49,22 @@ To-do list:
 
 ## Usage
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+* Click "Play Ants" button.
+* The different types of Ants are at the top, as well as the amount of food you have. Click the ant you want to use and click on the tile where you want to put it.
+* Types of Ants:
+  * HarvesterAnt – Produces 1 food per turn to support the colony.
+  * ThrowerAnt – Attacks the nearest bee within range by throwing a leaf.
+  * ShortThrower – Variant of ThrowerAnt; only attacks bees up to 3 places away.
+  * LongThrower – Variant of ThrowerAnt; only attacks bees at least 5 places away.
+  * ScubaThrower – Waterproof version of ThrowerAnt; survives in water.
+  * SlowThrower – Doesn’t deal damage, but slows bees (they act every other turn for 3 turns).
+  * FireAnt – Deals damage to all bees in its place when attacked; extra burst on death.
+  * TankAnt – Container that also deals 1 damage to all bees in its place every turn.
+  * WallAnt – High-health ant that blocks bees but doesn’t attack or produce food.
+  * BodyguardAnt – Container that protects another ant in the same place.
+  * HungryAnt – Instantly eats a bee in its place, but needs 3 turns to chew afterward.
+  * QueenAnt – Throws like a ScubaThrower and doubles the damage of ants behind her. If she dies, the game ends.
+  * AntRemover – Special utility ant used in the GUI to remove ants from the board.
 
 ## Contributors
 
