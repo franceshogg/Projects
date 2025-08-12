@@ -6,9 +6,12 @@ This is a game coded in Python where ants defend their colony from invading bees
 
 ## Technologies Used
 
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Python 3
+* UC Berkeley `ucb` module (for command-line interaction and tracing)
+* Object-Oriented Programming (OOP)
+* Standard Python libraries:
+   * `random`
+   * `collections.OrderedDict`
 
 ## Features
 
