@@ -38,14 +38,11 @@ To-do list:
 
 ## Getting Started
    
-(include git clone command)
-(include all environment setup steps)
-
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-- Clone the repository: git clone https://github.com/franceshogg/Ants-Game-Python.git
-- Move to correct directory, then move into "Ants" folder: cd Ants
+- Ensure Python is installed on your computer.
+- Clone the repository
+  - git clone https://github.com/franceshogg/Ants-Game-Python.git
+- Move to correct directory, then move into "Ants" folder:
+  - cd .../Ants-Game-Python/Ants
 - Run game:
   - UNIX: python3 gui.py
   - Windows: python gui.py
