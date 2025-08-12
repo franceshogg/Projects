@@ -51,6 +51,8 @@ To-do list:
 
 * Click "Play Ants" button.
 * The different types of Ants are at the top, as well as the amount of food you have. Click the ant you want to use and click on the tile where you want to put it.
+* Eliminate Bees to ensure they do not reach the end of the tunnel or kill the QueenAnt.
+* Once all Bees are eliminated, you win. 
 * Types of Ants:
   * HarvesterAnt – Produces 1 food per turn to support the colony.
   * ThrowerAnt – Attacks the nearest bee within range by throwing a leaf.
