@@ -16,13 +16,25 @@ This is a game coded in Python where ants defend their colony from invading bees
 ## Features
 
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Diverse Ant Types with Unique Abilities
+  * Includes damage-dealing (ThrowerAnt, FireAnt), support (HarvesterAnt), defensive (WallAnt), and utility ants (HungryAnt, BodyguardAnt, TankAnt).
+  * Container ants can hold other ants in the same space for added strategy. 
+* Fully Functional Game Loop with Turn-Based Logic
+  * Game progresses via turns managed by GameState, simulating ant and bee behavior.
+  * Win/loss conditions handled cleanly with custom exceptions.
+* Modular, Object-Oriented Architecture
+  * Clean class hierarchy: Insect → Ant and Bee with inheritance.
+  * Easy to extend with new ant or bee types.
+  * Places form a flexible linked-map structure.
+* Dynamic Map with Environmental Hazards
+  * Includes wet (Water) and dry tunnel layouts.
+  * Only waterproof insects survive in water (ScubaThrower, Bees).
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Add different levels to play on harder modes.
+  * Increase the speed and strengh of bees and cost of ants.
+  * Create "thrower bees" that can throw damage at ants.
+* Create tutorial to explain how to play and what each type of ant does.
 
 ## Getting Started
    
@@ -41,9 +53,7 @@ To-do list:
 
 ## Contributors
 
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
-
-## License
-
-This project uses the following license: [<license_name>](<link>).
+> Frances Hogg
+> Tom Magrino, Eric Tzeng, and John DeNero developed this project's starter code.
+> The artwork was drawn by Alana Tran, Andrew Huang, Emilee Chen, Jessie Salas, Jingyi Li, Katherine Xu, Meena Vempaty, Michelle Chang, and Ryan Davis.
 
