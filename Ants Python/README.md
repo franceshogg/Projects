@@ -45,7 +45,7 @@ To-do list:
 > Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
 
 - Clone the repository: git clone https://github.com/franceshogg/Ants-Game-Python.git
-- Move into correct repository: cd Ants
+- Move to correct directory, then move into "Ants" folder: cd Ants
 - Run python3 gui.py, then the game should start up in a new tab.
 
 ## Usage
