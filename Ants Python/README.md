@@ -38,18 +38,35 @@ To-do list:
 
 ## Getting Started
    
-(include git clone command)
-(include all environment setup steps)
-
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-- All the `code` required to get started
-- Images of what it should look like
+- Ensure Python3 is installed on your computer.
+- Clone the repository
+  - git clone https://github.com/franceshogg/Ants-Game-Python.git
+- Move to correct directory, then move into "Ants" folder:
+  - cd .../Ants-Game-Python/Ants
+- Run game:
+  - UNIX: python3 gui.py
+  - Windows: python gui.py
 
 ## Usage
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+* Click "Play Ants" button.
+* The different types of Ants are at the top, as well as the amount of food you have. Click the ant you want to use and click on the tile where you want to put it.
+* Eliminate Bees to ensure they do not reach the end of the tunnel or kill the QueenAnt.
+* Once all Bees are eliminated, you win. 
+* Types of Ants:
+  * HarvesterAnt – Produces 1 food per turn to support the colony.
+  * ThrowerAnt – Attacks the nearest bee within range by throwing a leaf.
+  * ShortThrower – Variant of ThrowerAnt; only attacks bees up to 3 places away.
+  * LongThrower – Variant of ThrowerAnt; only attacks bees at least 5 places away.
+  * ScubaThrower – Waterproof version of ThrowerAnt; survives in water.
+  * SlowThrower – Doesn’t deal damage, but slows bees (they act every other turn for 3 turns).
+  * FireAnt – Deals damage to all bees in its place when attacked; extra burst on death.
+  * TankAnt – Container that also deals 1 damage to all bees in its place every turn.
+  * WallAnt – High-health ant that blocks bees but doesn’t attack or produce food.
+  * BodyguardAnt – Container that protects another ant in the same place.
+  * HungryAnt – Instantly eats a bee in its place, but needs 3 turns to chew afterward.
+  * QueenAnt – Throws like a ScubaThrower and doubles the damage of ants behind her. If she dies, the game ends.
+  * AntRemover – Special utility ant used in the GUI to remove ants from the board.
 
 ## Contributors
 
